@@ -1,12 +1,9 @@
 ##멋쟁이 사자처럼
 ---
-##core Javascript 
+##Core Javascript Study Repository
 ---
----
-###hello
-## hello
-####hello
-#####hello
 
+학습이 완료된 항목은 체크박스로 표시됩니다.
 
-1.JavaScript Core Branch [바로가기](https://www.naver.com)
+###basic
+- [ ] 1.JavaScript Core [바로가기](https://www.naver.com)

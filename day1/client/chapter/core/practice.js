@@ -98,23 +98,23 @@ let tt = {
 console.log(tt.tthis().a);
  */
 
-const someVar = "Hat";
+// const someVar = "Hat";
 
-function myFun() {
-  let a = function test(params) {
-    const someVar = "body";
-  };
-  {
-    const someVar = "body2";
-  }
-  return someVar;
-}
+// function myFun() {
+//   let a = function test(params) {
+//     const someVar = "body";
+//   };
+//   {
+//     const someVar = "body2";
+//   }
+//   return someVar;
+// }
 
-// console.log(myFun());
+// // console.log(myFun());
 
-function a() {
-  var b = 10;
-}
-a();
-console.log(b);
-var b = 1;
+// function a() {
+//   var b = 10;
+// }
+// a();
+// console.log(b);
+// var b = 1;

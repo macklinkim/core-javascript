@@ -118,3 +118,25 @@ console.log(tt.tthis().a);
 // a();
 // console.log(b);
 // var b = 1;
+
+/* 복사할때 쓰는 코드들 */
+
+// a = { ...b };
+
+// const { a: a2 } = b;
+
+// a = JSON.parse(JSON.stringify(b));
+
+//a = Object.assign({}, b);
+
+// a = new Object(b);
+
+/* let temp = {};
+for (let key in b) {
+  temp[key] = b[key];
+}
+a = temp; */
+// a = .deepClone(b);
+
+// var _ = require('lodash');
+// a = _.cloneDeep(b);

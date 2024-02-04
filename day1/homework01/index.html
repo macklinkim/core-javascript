@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>숙제</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <form action="" id="loginForm" class="loginFrom">
+        <div class="login">
+          <canvas id="canvas"> </canvas>
+          <h1 id="afterLogin"></h1>
+          <div class="inner-wrapper">
+            <div class="id-group">
+              <label class="userId Label">사용자 ID</label>
+              <input
+                type="text"
+                name="user Id"
+                id="userId"
+                class="userId input"
+                placeholder="ID here"
+              />
+              <label for="userId" class="check Id" id="id-label"
+                >아이디를 입력해주세요</label
+              >
+            </div>
+            <div class="pw-group">
+              <label class="userPw Label">Password</label>
+              <input
+                type="password"
+                name="user Pw"
+                id="userPw"
+                class="userPw"
+                placeholder="Password here"
+              />
+
+              <label for="uerPw" class="check Pw" id="pw-label"
+                >비밀번호를 입력해주세요</label
+              >
+            </div>
+            <button id="btn-login" class="btn-login" type="button">
+              로그인
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

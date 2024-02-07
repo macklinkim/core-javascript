@@ -1,17 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko-kr">
-<head>
-  <meta charset="UTF-8">
-  <title>범쌤과 함께하는 자바스크립트 코어</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="./assets/favicon.svg" sizes="any" type="image/x-icon" />
-  <link rel="stylesheet" href="./style.css">
-  <!-- <script defer src="./main.js"></script> -->
-  <script defer src="./chapter/dom/01.bom.js"></script>
-</head>
-<body>
-  <h1 class="first">hello JavaScript.</h1>
-  <h2 class="second">hello</h2>
-  <video autoplay id = "video" src=""></video>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>범쌤과 함께하는 자바스크립트 코어</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="./assets/favicon.svg"
+      sizes="any"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- <script defer src="./main.js"></script> -->
+    <script src="./lib/dom/getNodes.js" defer></script>
+    <script src="./lib/dom/insert.js" defer></script>
+    <script src="./lib/dom/bindEvent.js" defer></script>
+    <script defer src="./chapter/dom/09.event.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script> -->
+  </head>
+  <body>
+    <!-- <button type="button" class="deleteEvent">이벤트 제거</button> -->
+    <h1 class="first" say="hi">
+      hello JavaScript. <br />
+      <span class="first-span">hello span1</span>
+      <br />
+    </h1>
+    <h2><span class="second-span">hello span2</span></h2>
+    <!-- <div class="ground">
+      <img src="https://en.js.cx/clipart/ball.svg" id="ball" alt="축구공" />
+    </div> -->
+    <!-- <h2 class="second">hello</h2> -->
+    <!-- <video autoplay id="video" src=""></video> -->
+    <section>
+      <article>
+        <p></p>
+      </article>
+    </section>
+    <input type="text" name="" id="input" />
+    <div>Throttle:<span id="throttle"></span></div>
+  </body>
 </html>

@@ -1,0 +1,14 @@
+#myDiv {
+  padding: 20px;
+  background-color: blue;
+
+  & #mySection {
+    padding: 20px;
+    background-color: red;
+
+    & #myP {
+      padding: 20px;
+      background-color: green;
+    }
+  }
+}

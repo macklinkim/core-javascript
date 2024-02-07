@@ -114,9 +114,7 @@ function showHide(params) {
   document.querySelector('#afterLogin').style = 'display:block';
   document.querySelector('#afterLogin').textContent =
     users.find((item) => item.id === params).name +
-    '님 \n\n2024년 용띠 새해 복 많이 받으세요~!';
-  //개행 안먹는 문제
-  //백틱으로 실제줄바꿈도 안먹는 문제
+    '님 \n\n2024년 용띠 새해 복 많이 받으세요';
 }
 
 function idSuccessChange(color) {

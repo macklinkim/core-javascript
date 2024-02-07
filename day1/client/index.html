@@ -1,14 +1,36 @@
-<!DOCTYPE html>
-<html lang="ko-kr">
-<head>
-  <meta charset="UTF-8">
-  <title>범쌤과 함께하는 자바스크립트 코어</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="./assets/favicon.svg" sizes="any" type="image/x-icon" />
-  <link rel="stylesheet" href="./style.css">
-  <script defer src="./main.js"></script>
-</head>
-<body>
-  <h1>hello JavaScript.</h1>
-</body>
+<!doctype html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>범쌤과 함께하는 자바스크립트</title>
+    <link rel="shortcut icon" href="./assets/tiger.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./main.js" type="module"></script>
+    <script
+      defer
+      src="
+https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
+"
+    ></script>
+  </head>
+  <body>
+    <form class="calculator">
+      <div class="first">
+        <label for="firstNumber">First Value</label>
+        <input type="number" name="first" id="firstNumber" required />
+      </div>
+
+      <div class="operator">+</div>
+
+      <div class="second">
+        <label for="secondNumber">Second Value</label>
+        <input type="number" name="second" id="secondNumber" required />
+      </div>
+
+      <input id="clear" type="submit" value="clear" />
+
+      <div class="result">-</div>
+    </form>
+  </body>
 </html>

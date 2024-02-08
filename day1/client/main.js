@@ -63,6 +63,7 @@ const numberInputs = Array.from(getNodes('input:not(#clear)'));
 
 function handleInput() {
   const total = numberInputs.reduce((acc, cur) => acc + Number(cur.value), 0);
+  console.log('kalsfdj');
   clearContents(result);
   insertLast(result, total);
 }
@@ -75,5 +76,3 @@ function handleClear(e) {
 
 calculator.addEventListener('input', _.debounce(handleInput, 300));
 clear.addEventListener('click', handleClear);
-
-const _ = require('lodash');

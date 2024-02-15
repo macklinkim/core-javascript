@@ -6,6 +6,7 @@ import {
   attr,
   insertLast,
   endScroll,
+  clearContents,
 } from './lib/index.js';
 
 const [rollingButton, recordButton, resetButton] = getNodes(
@@ -52,5 +53,13 @@ function handleRecord() {
   renderRecordItem();
 }
 
+function handleReset() {
+  recordListWrapper.hidden = true;
+  clearContents(getNode('.recordList tbody'));
+  times = 0;
+  sum = 0;
+}
+
 rollingButton.addEventListener('click', handleRolling);
 recordButton.addEventListener('click', handleRecord);
+resetButton.addEventListener('click', handleReset);

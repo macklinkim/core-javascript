@@ -5,6 +5,7 @@ import {
   getNode,
   attr,
   insertLast,
+  endScroll,
 } from './lib/index.js';
 
 const [rollingButton, recordButton, resetButton] = getNodes(
@@ -28,6 +29,7 @@ function renderRecordItem() {
   </tr> `;
   const records = getNode('.recordList tbody');
   insertLast(records, template);
+  endScroll(recordListWrapper);
 }
 
 const handleRolling = (() => {

@@ -1,3 +1,1 @@
-/* eslint no-unused-vars:off */
-console.log('안녕 자바스크립트!');
-const a = 10;
+import {} from './lib/index.js';
